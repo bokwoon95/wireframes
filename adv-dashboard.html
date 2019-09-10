@@ -5,7 +5,7 @@
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Source+Sans+Pro|Lobster+Two&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./custom.css">
-  <title>Student Dashboard</title>
+  <title>Adviser Dashboard</title>
 </head>
 <body>
   <!-- Navbar -->
@@ -15,11 +15,17 @@
         <a class="flex-item block font-bold decorative text-3xl">Orbital</a>
       </p>
       <p class="mx-2 flex items-center h-full">
+        <a class="flex-item block font-bold text-xl">About</a>
+      </p>
+      <p class="mx-2 flex items-center h-full">
+        <a class="flex-item block font-bold text-xl">Staff</a>
+      </p>
+      <p class="mx-2 flex items-center h-full">
         <a class="flex-item block font-bold text-xl">Past Year Showcase</a>
       </p>
     </div>
     <div class="divider"></div>
-    <div class="divider-right h-full flex">
+    <div class="divider-right h-full flex items-center">
       <p class="mx-2 flex items-center h-full">
         <a href="./adm-dashboard.html" class="flex-item block text-xl">Admin</a>
       </p>
@@ -49,9 +55,9 @@
     <div class="p-5 justify-center hidden md:flex">
       <span class="text-5xl flex-item decorative text-gray-300">Orbital</span>
     </div>
-    <div class="p-3">
-      <p class="flex items-center justify-between pt-1 text-white">
-        <a href="./stu-dashboard.html" class="flex-item text-lg">Dashboard</a>
+    <div class="">
+      <p class="flex items-center justify-between p-1 text-white bg-blue-700 px-3">
+        <a href="./stu-dashboard.html" class="flex-item text">Dashboard</a>
         <svg xmlns="http://www.w3.org/2000/svg" width="306" height="306" viewBox="0 0 306 306" class="h-3 w-3 flex-item fill-current">
           <polygon points="94.4 0 58.7 35.7 176 153 58.7 270.3 94.4 306 247.4 153 "/>
         </svg>
@@ -63,6 +69,144 @@
   <!-- Content -->
   <div class="content bg-gray-background sans-serif min-h-screen">
 
+    <!-- Milestone 1 -->
+    <p class="p-4">
+      <span class="inline text-4xl mr-3">Milestone 1</span>
+      <span>10 Jul 2020 (10 days to go)</span>
+    </p>
+    <div class="teams px-4">
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">We Share</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Submitted</p>
+        <div class="px-4">
+          <button class="gradient-green rounded-full px-2 mr-1">View</button>
+          <button class="gradient-red rounded-full px-2 mr-1">Start Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-blue cursor-pointer">hosehhbo</a></li>
+            <li><a ahref="" class="underline link-blue cursor-pointer">KOPI O KOSONG</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">hosehhbo</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Submitted</p>
+        <div class="px-4">
+          <button class="gradient-green rounded-full px-2 mr-1">View</button>
+          <button class="gradient-green rounded-full px-2 mr-1">Edit Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-blue cursor-pointer">We Share</a></li>
+            <li><a ahref="" class="underline link-blue cursor-pointer">KOPI O KOSONG</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">KOPI O KOSONG</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Submitted</p>
+        <div class="px-4">
+          <button class="gradient-green rounded-full px-2 mr-1">View</button>
+          <button class="gradient-green rounded-full px-2 mr-1">Edit Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-blue cursor-pointer">We Share</a></li>
+            <li><a ahref="" class="underline link-blue cursor-pointer">hosehhbo</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">No Sleep &amp; No Coffee</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Pending Submission</p>
+        <div class="px-4">
+          <button class="gradient-silver rounded-full px-2 mr-1">View</button>
+          <button class="gradient-silver rounded-full px-2 mr-1">Start Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-gray cursor-pointer">We Share</a></li>
+            <li><a ahref="" class="underline link-gray cursor-pointer">hosehhbo</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Milestone 1 -->
+
+    <!-- Milestone 2 -->
+    <p class="p-4">
+      <span class="inline text-4xl mr-3">Milestone 2</span>
+      <span>23 Jul 2020 (23 days to go)</span>
+    </p>
+    <div class="teams px-4">
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">We Share</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Pending Submission</p>
+        <div class="px-4">
+          <button class="gradient-silver rounded-full px-2 mr-1">View</button>
+          <button class="gradient-silver rounded-full px-2 mr-1">Start Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-gray cursor-pointer">hosehhbo</a></li>
+            <li><a ahref="" class="underline link-gray cursor-pointer">KOPI O KOSONG</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">hosehhbo</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Pending Submission</p>
+        <div class="px-4">
+          <button class="gradient-silver rounded-full px-2 mr-1">View</button>
+          <button class="gradient-silver rounded-full px-2 mr-1">Start Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-gray cursor-pointer">We Share</a></li>
+            <li><a ahref="" class="underline link-gray cursor-pointer">KOPI O KOSONG</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">KOPI O KOSONG</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Pending Submission</p>
+        <div class="px-4">
+          <button class="gradient-silver rounded-full px-2 mr-1">View</button>
+          <button class="gradient-silver rounded-full px-2 mr-1">Start Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-gray cursor-pointer">We Share</a></li>
+            <li><a ahref="" class="underline link-gray cursor-pointer">hosehhbo</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bg-white border-2">
+        <p class="pt-4 text-xl px-4 font-bold serif">No Sleep &amp; No Coffee</p>
+        <p class="text-md px-4 pb-4 font-bold text-gray-600">Pending Submission</p>
+        <div class="px-4">
+          <button class="gradient-silver rounded-full px-2 mr-1">View</button>
+          <button class="gradient-silver rounded-full px-2 mr-1">Start Evaluation</button>
+          <p class="font-bold text-lg mt-2">Other teams' evaluations:</p>
+          <ul class="list-disc list-inside pb-4">
+            <li><a ahref="" class="underline link-gray cursor-pointer">We Share</a></li>
+            <li><a ahref="" class="underline link-gray cursor-pointer">hosehhbo</a></li>
+            <li><a ahref="" class="underline link-gray cursor-not-allowed">No Sleep &amp; No Coffee</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- End Milestone 2 -->
+
+    <!-- Milestone 3 -->
+    <p class="p-4 link-gray">
+      <span class="inline text-4xl mr-3">Milestone 3</span>
+      <span>Milestone not open</span>
+    </p>
+    <div class="teams px-4 pb-4">
+    </div>
+    <!-- End Milestone 3 -->
   </div>
   <!-- End Content -->
 </body>
