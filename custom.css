@@ -1,0 +1,108 @@
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+.bg-gray-dark {
+  background-color: #2D2D2D;
+}
+
+.bg-gray-light {
+  background-color: #424242;
+}
+
+.bg-gray-background {
+  background-color: #EAEBED;
+}
+
+.link-blue {
+  color: #0000EE;
+}
+
+.link-gray {
+  color: #888888;
+}
+
+.gradient-green {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+  background: rgb(191,210,85); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-red {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f85032+0,f16f5c+50,f6290c+51,f02f17+71,e73827+100;Red+Gloss+%231 */
+  background: rgb(248,80,50); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(248,80,50,1) 0%,rgba(241,111,92,1) 50%,rgba(246,41,12,1) 51%,rgba(240,47,23,1) 71%,rgba(231,56,39,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f85032', endColorstr='#e73827',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-silver {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fefefe+0,d1d1d1+49,dbdbdb+81,dbdbdb+81,e2e2e2+100 */
+  background: rgb(254,254,254); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 81%, rgba(219,219,219,1) 81%, rgba(226,226,226,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 49%,rgba(219,219,219,1) 81%,rgba(219,219,219,1) 81%,rgba(226,226,226,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 49%,rgba(219,219,219,1) 81%,rgba(219,219,219,1) 81%,rgba(226,226,226,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+}
+
+.serif {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.sans-serif {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.decorative {
+  font-family: 'Lobster Two', cursive;
+}
+
+.hover-text:hover {
+  color: white;
+}
+
+.hover-text:hover ~ .hover-arrow {
+  display: block;
+  fill: white;
+}
+
+.hover-arrow {
+  display: none;
+}
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+
+/* Medium (md) */
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: 12rem 1fr;
+    grid-template-rows: 3rem 1fr;
+    height: 100vh;
+  }
+
+  .navbar {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .sidebar {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .stu-dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) {
+}
